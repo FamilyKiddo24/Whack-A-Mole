@@ -17,7 +17,7 @@ lastHole = hole;
 return hole;
 }
 function peep() {
-const time = randomTime(200, 1000);
+const time = randomTime(4500, 5000);
 const hole = randomHole(holes);
 hole.classList.add('up');
 setTimeout(() => {
